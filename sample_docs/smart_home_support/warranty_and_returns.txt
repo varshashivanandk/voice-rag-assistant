@@ -1,0 +1,26 @@
+AEROHOME WARRANTY AND RETURNS POLICY
+
+WARRANTY COVERAGE
+AeroHome products come with a limited warranty against manufacturing defects from the date of delivery:
+- Smart Thermostat T1 Lite: 1 year
+- Smart Thermostat T2: 2 years
+- Smart Thermostat T2 Pro: 3 years
+- AirPure P3 and AirPure P5 air purifiers: 1 year (HEPA filters are consumables and are not covered)
+- SmartPlug S1 and Remote Sensor RS1: 1 year
+The warranty does not cover damage from incorrect wiring, power surges, liquid damage, or repairs by unauthorised persons.
+
+HOW TO CLAIM WARRANTY
+1. Go to support.aerohome.example and choose Warranty Claim.
+2. Enter the device serial number (starts with AH-) and upload the invoice or order confirmation.
+3. Describe the issue and attach a photo or video if possible.
+4. A support specialist reviews the claim within 2 business days and may run remote diagnostics.
+5. If the claim is approved, a replacement unit is shipped within 5 business days and a prepaid return label is emailed for the faulty unit.
+
+RETURNS
+Products bought from the AeroHome online store can be returned within 30 days of delivery for any reason. Items must include all accessories and the original packaging. A restocking fee of 10 percent applies to opened products that are not defective. Products bought from other retailers follow that retailer's return policy.
+
+REFUNDS
+Refunds are issued to the original payment method within 7 to 10 business days after the returned item passes inspection at our warehouse.
+
+AEROCARE+ EXTENDED PROTECTION
+AeroCare+ costs Rs 1,499 per year per device and adds accidental damage protection and priority phone support. It must be purchased within 60 days of the original purchase.

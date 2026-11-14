@@ -1,0 +1,16 @@
+Date,Day,Holiday,Type,Applicable locations
+2026-01-01,Thursday,New Year's Day,Mandatory,All offices
+2026-01-14,Wednesday,Makar Sankranti / Pongal,Optional,"Bengaluru, Hyderabad"
+2026-01-26,Monday,Republic Day,Mandatory,All offices
+2026-03-04,Wednesday,Holi,Mandatory,"Pune, Hyderabad"
+2026-03-19,Thursday,Ugadi / Gudi Padwa,Mandatory,All offices
+2026-03-21,Saturday,Eid ul-Fitr,Optional,All offices
+2026-04-03,Friday,Good Friday,Optional,All offices
+2026-05-01,Friday,Maharashtra Day / May Day,Mandatory,"Pune, Bengaluru"
+2026-08-15,Saturday,Independence Day,Mandatory,All offices
+2026-09-14,Monday,Ganesh Chaturthi,Mandatory,All offices
+2026-10-02,Friday,Gandhi Jayanti,Mandatory,All offices
+2026-10-20,Tuesday,Dussehra,Mandatory,All offices
+2026-11-09,Monday,Diwali (Deepavali),Mandatory,All offices
+2026-11-10,Tuesday,Diwali Balipadyami,Optional,Bengaluru
+2026-12-25,Friday,Christmas,Mandatory,All offices

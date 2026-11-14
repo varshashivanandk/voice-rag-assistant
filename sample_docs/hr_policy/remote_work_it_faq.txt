@@ -1,0 +1,34 @@
+NIMBUS TECHNOLOGIES - REMOTE WORK AND IT SECURITY FAQ
+
+HYBRID WORK MODEL
+Hybrid employees work from the office three days a week, on Tuesday, Wednesday and Thursday. Monday and Friday are flexible remote days. Teams may agree on additional office days for planning events.
+
+REQUESTING FULLY REMOTE WORK
+Fully remote work is an exception and needs approval from the department Vice President.
+To request it:
+1. Submit the Remote Work Request form on PeopleHub with the business justification.
+2. Your manager reviews the request and adds a recommendation.
+3. The HR business partner checks eligibility, including that you have completed probation.
+4. The department Vice President gives the final approval.
+An approved remote arrangement is valid for 6 months and must be renewed after that.
+
+WORKING FROM ABROAD
+Employees may work from outside India for up to 30 days in a calendar year, with manager approval and a tax check by the Payroll team at least 14 days before travel.
+
+HOME OFFICE SETUP
+Employees approved for remote work receive a one-time home office allowance of Rs 15,000 for a chair, desk or monitor. Receipts must be submitted within 60 days.
+
+VPN AND MULTI-FACTOR AUTHENTICATION
+All access to internal systems from outside the office must go through the GlobalProtect VPN. Multi-factor authentication uses the Microsoft Authenticator app. If you change your phone, raise a ticket with the IT Helpdesk to re-register MFA before resetting the old device.
+
+PASSWORD POLICY
+Passwords must be at least 14 characters long and include upper case, lower case, a number and a symbol. Passwords expire every 90 days and the last 5 passwords cannot be reused. Never share your password, including with IT staff.
+
+LOST OR STOLEN LAPTOP
+Report a lost or stolen laptop to the IT Security team within 4 hours by emailing security@nimbustech.example and calling the IT Helpdesk on extension 4040. IT will remotely lock and wipe the device. A police report (FIR) copy is required for stolen devices.
+
+PERSONAL DEVICES
+Personal phones and tablets may be used for email and Teams only after enrolling them in Microsoft Intune. Company source code and customer data must never be stored on personal devices.
+
+IT HELPDESK
+The IT Helpdesk is available 24x7 on extension 4040 or helpdesk@nimbustech.example. Laptop replacement requests are fulfilled within 3 working days.

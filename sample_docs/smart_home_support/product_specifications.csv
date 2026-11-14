@@ -1,0 +1,8 @@
+Model,Category,Price (INR),Display,Connectivity,Matter support,Voice assistants,Warranty,Key features,Room coverage
+T1 Lite,Smart thermostat,8999,Segment LED,Wi-Fi 2.4 GHz,No,Alexa,1 year,Basic scheduling; no geofencing; requires C-wire,Not applicable
+T2,Smart thermostat,14999,2.4 inch colour LCD,"Wi-Fi 2.4 GHz, Bluetooth LE 5.0",Yes,"Alexa, Google Assistant",2 years,Geofencing away mode; energy reports; Power Extender Kit sold separately,Not applicable
+T2 Pro,Smart thermostat,21999,3.5 inch colour touchscreen,"Wi-Fi 2.4/5 GHz, Bluetooth LE 5.0, Thread",Yes,"Alexa, Google Assistant, Siri",3 years,Includes one Remote Sensor RS1 and Power Extender Kit; humidity sensor; air quality alerts,Not applicable
+AirPure P3,Air purifier,11499,LED ring,Wi-Fi 2.4 GHz,No,"Alexa, Google Assistant",1 year,True HEPA H13 filter; CADR 250 m3/h; noise 24 dB in sleep mode,Up to 30 square metres
+AirPure P5,Air purifier,18999,PM2.5 digital display,Wi-Fi 2.4 GHz,Yes,"Alexa, Google Assistant",1 year,True HEPA H13 plus activated carbon filter; CADR 450 m3/h; auto mode with PM2.5 sensor,Up to 55 square metres
+SmartPlug S1,Smart plug,1299,None,Wi-Fi 2.4 GHz,Yes,"Alexa, Google Assistant",1 year,16A rating; energy monitoring; schedules,Not applicable
+Remote Sensor RS1,Accessory,2999,None,Bluetooth LE 5.0,No,None,1 year,Temperature and occupancy sensing for T2 and T2 Pro; battery life up to 2 years,Not applicable
