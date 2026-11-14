@@ -1,0 +1,474 @@
+[
+  {
+    "id": "HR-F1",
+    "domain": "hr_policy",
+    "type": "factual",
+    "question": "How many days of casual leave do employees get per year?",
+    "expected": [
+      {
+        "file": "leave_policy.docx",
+        "text": "8 days of casual leave"
+      }
+    ]
+  },
+  {
+    "id": "HR-F2",
+    "domain": "hr_policy",
+    "type": "factual",
+    "question": "What are the core collaboration hours?",
+    "expected": [
+      {
+        "file": "employee_handbook.pdf",
+        "text": "10:30 AM to 4:30 PM"
+      }
+    ]
+  },
+  {
+    "id": "HR-F3",
+    "domain": "hr_policy",
+    "type": "factual",
+    "question": "What is the notice period for people managers after confirmation?",
+    "expected": [
+      {
+        "file": "employee_handbook.pdf",
+        "text": "90 days for people managers"
+      }
+    ]
+  },
+  {
+    "id": "HR-F4",
+    "domain": "hr_policy",
+    "type": "factual",
+    "question": "How much internet reimbursement do remote employees get?",
+    "expected": [
+      {
+        "file": "employee_handbook.pdf",
+        "text": "Rs 1,500 per month"
+      }
+    ]
+  },
+  {
+    "id": "HR-F5",
+    "domain": "hr_policy",
+    "type": "factual",
+    "question": "When is the Diwali holiday this year?",
+    "expected": [
+      {
+        "file": "holiday_calendar_2026.csv",
+        "text": "Diwali (Deepavali)"
+      }
+    ]
+  },
+  {
+    "id": "HR-F6",
+    "domain": "hr_policy",
+    "type": "factual",
+    "question": "um what's the minimum password length",
+    "expected": [
+      {
+        "file": "remote_work_it_faq.txt",
+        "text": "at least 14 characters"
+      }
+    ]
+  },
+  {
+    "id": "HR-F7",
+    "domain": "hr_policy",
+    "type": "factual",
+    "question": "How long is paternity leave?",
+    "expected": [
+      {
+        "file": "leave_policy.docx",
+        "text": "10 working days of paternity leave"
+      }
+    ]
+  },
+  {
+    "id": "HR-F8",
+    "domain": "hr_policy",
+    "type": "factual",
+    "question": "What is the annual learning budget per employee?",
+    "expected": [
+      {
+        "file": "employee_handbook.pdf",
+        "text": "Rs 40,000"
+      }
+    ]
+  },
+  {
+    "id": "HR-P1",
+    "domain": "hr_policy",
+    "type": "procedural",
+    "question": "How do I apply for earned leave?",
+    "expected": [
+      {
+        "file": "leave_policy.docx",
+        "text": "open the Leave section"
+      }
+    ]
+  },
+  {
+    "id": "HR-P2",
+    "domain": "hr_policy",
+    "type": "procedural",
+    "question": "What should I do if my laptop is stolen?",
+    "expected": [
+      {
+        "file": "remote_work_it_faq.txt",
+        "text": "within 4 hours"
+      }
+    ]
+  },
+  {
+    "id": "HR-P3",
+    "domain": "hr_policy",
+    "type": "procedural",
+    "question": "How can I request to work fully remote?",
+    "expected": [
+      {
+        "file": "remote_work_it_faq.txt",
+        "text": "Remote Work Request form"
+      }
+    ]
+  },
+  {
+    "id": "HR-P4",
+    "domain": "hr_policy",
+    "type": "procedural",
+    "question": "How do I raise a grievance?",
+    "expected": [
+      {
+        "file": "employee_handbook.pdf",
+        "text": "grievance@nimbustech.example"
+      }
+    ]
+  },
+  {
+    "id": "HR-C1",
+    "domain": "hr_policy",
+    "type": "comparative",
+    "question": "What is the difference between casual leave and sick leave?",
+    "expected": [
+      {
+        "file": "leave_policy.docx",
+        "text": "8 days of casual leave"
+      },
+      {
+        "file": "leave_policy.docx",
+        "text": "10 days of sick leave"
+      }
+    ]
+  },
+  {
+    "id": "HR-C2",
+    "domain": "hr_policy",
+    "type": "comparative",
+    "question": "Compare the notice period during probation and after confirmation",
+    "expected": [
+      {
+        "file": "employee_handbook.pdf",
+        "text": "15 days of notice"
+      }
+    ]
+  },
+  {
+    "id": "HR-C3",
+    "domain": "hr_policy",
+    "type": "comparative",
+    "question": "How does the per diem for metro cities compare with non-metro cities?",
+    "expected": [
+      {
+        "file": "employee_handbook.pdf",
+        "text": "Rs 1,800 per day in non-metro"
+      }
+    ]
+  },
+  {
+    "id": "HR-C4",
+    "domain": "hr_policy",
+    "type": "comparative",
+    "question": "Which gives more days, earned leave or sick leave?",
+    "expected": [
+      {
+        "file": "leave_policy.docx",
+        "text": "18 days of earned leave"
+      },
+      {
+        "file": "leave_policy.docx",
+        "text": "10 days of sick leave"
+      }
+    ]
+  },
+  {
+    "id": "HR-U1",
+    "domain": "hr_policy",
+    "type": "unavailable",
+    "question": "What is the employee stock option vesting schedule?",
+    "expected": []
+  },
+  {
+    "id": "HR-U2",
+    "domain": "hr_policy",
+    "type": "unavailable",
+    "question": "How much is the gym membership reimbursement?",
+    "expected": []
+  },
+  {
+    "id": "HR-U3",
+    "domain": "hr_policy",
+    "type": "unavailable",
+    "question": "What is the dress code on Fridays?",
+    "expected": []
+  },
+  {
+    "id": "HR-U4",
+    "domain": "hr_policy",
+    "type": "unavailable",
+    "question": "How much is the employee referral bonus?",
+    "expected": []
+  },
+  {
+    "id": "SH-F1",
+    "domain": "smart_home_support",
+    "type": "factual",
+    "question": "What Wi-Fi frequency does the T2 thermostat support?",
+    "expected": [
+      {
+        "file": "thermostat_t2_user_manual.pdf",
+        "text": "2.4 GHz Wi-Fi networks"
+      },
+      {
+        "file": "product_specifications.csv",
+        "text": "Model: T2 | Category: Smart thermostat"
+      }
+    ]
+  },
+  {
+    "id": "SH-F2",
+    "domain": "smart_home_support",
+    "type": "factual",
+    "question": "What does error code E3 mean?",
+    "expected": [
+      {
+        "file": "troubleshooting_guide.docx",
+        "text": "Wi-Fi authentication failed"
+      }
+    ]
+  },
+  {
+    "id": "SH-F3",
+    "domain": "smart_home_support",
+    "type": "factual",
+    "question": "How long is the warranty on the T2 Pro?",
+    "expected": [
+      {
+        "file": "warranty_and_returns.txt",
+        "text": "T2 Pro: 3 years"
+      },
+      {
+        "file": "product_specifications.csv",
+        "text": "Model: T2 Pro"
+      }
+    ]
+  },
+  {
+    "id": "SH-F4",
+    "domain": "smart_home_support",
+    "type": "factual",
+    "question": "What is the price of the AirPure P5?",
+    "expected": [
+      {
+        "file": "product_specifications.csv",
+        "text": "Model: AirPure P5"
+      }
+    ]
+  },
+  {
+    "id": "SH-F5",
+    "domain": "smart_home_support",
+    "type": "factual",
+    "question": "what are the default eco temperatures",
+    "expected": [
+      {
+        "file": "thermostat_t2_user_manual.pdf",
+        "text": "16 degrees"
+      }
+    ]
+  },
+  {
+    "id": "SH-F6",
+    "domain": "smart_home_support",
+    "type": "factual",
+    "question": "How often should I replace the HEPA filter?",
+    "expected": [
+      {
+        "file": "troubleshooting_guide.docx",
+        "text": "every 6 months"
+      }
+    ]
+  },
+  {
+    "id": "SH-F7",
+    "domain": "smart_home_support",
+    "type": "factual",
+    "question": "What is the toll free support number?",
+    "expected": [
+      {
+        "file": "troubleshooting_guide.docx",
+        "text": "1800-200-4455"
+      }
+    ]
+  },
+  {
+    "id": "SH-F8",
+    "domain": "smart_home_support",
+    "type": "factual",
+    "question": "How long do refunds take?",
+    "expected": [
+      {
+        "file": "warranty_and_returns.txt",
+        "text": "7 to 10 business days"
+      }
+    ]
+  },
+  {
+    "id": "SH-P1",
+    "domain": "smart_home_support",
+    "type": "procedural",
+    "question": "How do I factory reset the thermostat?",
+    "expected": [
+      {
+        "file": "thermostat_t2_user_manual.pdf",
+        "text": "15 seconds"
+      }
+    ]
+  },
+  {
+    "id": "SH-P2",
+    "domain": "smart_home_support",
+    "type": "procedural",
+    "question": "How do I connect the T2 to Wi-Fi?",
+    "expected": [
+      {
+        "file": "thermostat_t2_user_manual.pdf",
+        "text": "pairing mode"
+      }
+    ]
+  },
+  {
+    "id": "SH-P3",
+    "domain": "smart_home_support",
+    "type": "procedural",
+    "question": "How do I install the smart thermostat?",
+    "expected": [
+      {
+        "file": "thermostat_t2_user_manual.pdf",
+        "text": "circuit breaker"
+      }
+    ]
+  },
+  {
+    "id": "SH-P4",
+    "domain": "smart_home_support",
+    "type": "procedural",
+    "question": "How do I claim warranty for a faulty device?",
+    "expected": [
+      {
+        "file": "warranty_and_returns.txt",
+        "text": "Warranty Claim"
+      }
+    ]
+  },
+  {
+    "id": "SH-C1",
+    "domain": "smart_home_support",
+    "type": "comparative",
+    "question": "What is the difference between the T2 and the T2 Pro?",
+    "expected": [
+      {
+        "file": "product_specifications.csv",
+        "text": "Model: T2 | Category"
+      },
+      {
+        "file": "product_specifications.csv",
+        "text": "Model: T2 Pro"
+      }
+    ]
+  },
+  {
+    "id": "SH-C2",
+    "domain": "smart_home_support",
+    "type": "comparative",
+    "question": "Which purifier covers a bigger room, AirPure P3 or AirPure P5?",
+    "expected": [
+      {
+        "file": "product_specifications.csv",
+        "text": "Model: AirPure P3"
+      },
+      {
+        "file": "product_specifications.csv",
+        "text": "Model: AirPure P5"
+      }
+    ]
+  },
+  {
+    "id": "SH-C3",
+    "domain": "smart_home_support",
+    "type": "comparative",
+    "question": "Compare the warranty of the T1 Lite and the T2 Pro",
+    "expected": [
+      {
+        "file": "warranty_and_returns.txt",
+        "text": "T1 Lite: 1 year"
+      },
+      {
+        "file": "product_specifications.csv",
+        "text": "Model: T1 Lite"
+      }
+    ]
+  },
+  {
+    "id": "SH-C4",
+    "domain": "smart_home_support",
+    "type": "comparative",
+    "question": "Is the T2 Pro or the T1 Lite better for Siri users?",
+    "expected": [
+      {
+        "file": "product_specifications.csv",
+        "text": "Model: T2 Pro"
+      },
+      {
+        "file": "product_specifications.csv",
+        "text": "Model: T1 Lite"
+      }
+    ]
+  },
+  {
+    "id": "SH-U1",
+    "domain": "smart_home_support",
+    "type": "unavailable",
+    "question": "What is the battery life of the AeroHome smart lock?",
+    "expected": []
+  },
+  {
+    "id": "SH-U2",
+    "domain": "smart_home_support",
+    "type": "unavailable",
+    "question": "Does AeroHome sell solar panels?",
+    "expected": []
+  },
+  {
+    "id": "SH-U3",
+    "domain": "smart_home_support",
+    "type": "unavailable",
+    "question": "Can I pair the thermostat with a Zigbee hub?",
+    "expected": []
+  },
+  {
+    "id": "SH-U4",
+    "domain": "smart_home_support",
+    "type": "unavailable",
+    "question": "What is the price of the AeroHome video doorbell?",
+    "expected": []
+  }
+]
