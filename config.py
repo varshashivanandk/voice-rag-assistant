@@ -15,7 +15,7 @@ CHUNK_SIZE = 800
 CHUNK_OVERLAP = 120
 
 # Retrieval: how many chunks to return & the minimum similarity score.
-# Below this score we say "I couldn't find this in the knowledge base".
+
 TOP_K = 5
 MIN_SCORE = 0.45
 
