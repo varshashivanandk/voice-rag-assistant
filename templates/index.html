@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RAG Knowledge Base</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <header>
+    <h1>RAG Knowledge Base</h1>
+    <span id="status"></span>
+  </header>
+
+  <main>
+    <!-- Left: upload documents into the knowledge base -->
+    <section class="panel">
+      <h2>Upload documents</h2>
+      <label>Domain (knowledge base name)
+        <input id="domain" value="general">
+      </label>
+      <input id="files" type="file" multiple accept=".pdf,.docx,.txt,.csv">
+      <button id="upload-btn">Upload</button>
+      <div id="upload-messages"></div>
+
+      <table>
+        <thead><tr><th>File</th><th>Domain</th><th>Chunks</th></tr></thead>
+        <tbody id="documents"></tbody>
+      </table>
+    </section>
+
+    <!-- Right: semantic search -->
+    <section class="panel wide">
+      <h2>Search the knowledge base</h2>
+      <div class="row">
+        <select id="domain-filter"><option value="">All domains</option></select>
+        <input id="question" placeholder="Type a question">
+        <button id="search-btn">Search</button>
+      </div>
+      <div id="results"></div>
+    </section>
+  </main>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
