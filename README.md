@@ -1,4 +1,4 @@
-# Multi-Agent RAG Assistant – Milestone 1: Foundation & Knowledge Retrieval
+# Development of AI-Based Knowledge Retrieval Platform with Query Resolution System
 
 Milestone 1 builds the **knowledge base ingestion module** and a **basic RAG retrieval pipeline**:
 
