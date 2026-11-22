@@ -89,7 +89,8 @@ docs/                       research, architecture, tech stack, evaluations
 | Milestone | Test | Result |
 |---|---|---|
 | 1 | Retrieval, 40 questions | Top-1 96.9 %, Top-3 100 %, Top-5 100 % |
-| 2 | Query classification, 41 queries | see `evaluation/milestone2_results.md` |
-| 2 | End-to-end answers | run `python evaluate_agents.py` with your Groq key |
+| 2 | Query classification, 41 queries | 41 of 41 (100 %) |
+| 2 | Retrieval Agent, 40 questions | factual 14/16, procedural 8/8, comparative 7/8, unavailable 7/8 |
+| 2 | End-to-end answers (Groq `openai/gpt-oss-120b`), 14 questions | 12 of 14 passed |
 
 Details are in [`docs/5_milestone2_agents.md`](docs/5_milestone2_agents.md).

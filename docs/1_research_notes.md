@@ -99,7 +99,7 @@ speechSynthesis.speak(new SpeechSynthesisUtterance("Employees receive 10 days of
 | Area | Decision | Reason |
 |---|---|---|
 | Backend | Python + Flask | Required: Python; Flask is simple and familiar |
-| Frontend | HTML + CSS + JavaScript | Simple; no build tools; Web Speech API is plain JavaScript |
+| Frontend | HTML + CSS + JavaScript (replaced by React in Milestone 2) | Simple; no build tools; Web Speech API is plain JavaScript |
 | Embeddings | all-MiniLM-L6-v2 | Free, fast, runs locally |
 | Vector database | ChromaDB | Required; stores vectors + text + metadata |
 | Document list | SQLite | Built into Python |
