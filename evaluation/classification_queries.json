@@ -1,0 +1,207 @@
+[
+  {
+    "domain": "hr_policy",
+    "expected_type": "factual",
+    "query": "How many days of casual leave do employees get per year?"
+  },
+  {
+    "domain": "hr_policy",
+    "expected_type": "factual",
+    "query": "What are the core collaboration hours?"
+  },
+  {
+    "domain": "hr_policy",
+    "expected_type": "factual",
+    "query": "When is the Diwali holiday?"
+  },
+  {
+    "domain": "hr_policy",
+    "expected_type": "factual",
+    "query": "What is the notice period during probation?"
+  },
+  {
+    "domain": "hr_policy",
+    "expected_type": "factual",
+    "query": "Is there a shift allowance for night shifts?"
+  },
+  {
+    "domain": "hr_policy",
+    "expected_type": "factual",
+    "query": "um what's the minimum password length"
+  },
+  {
+    "domain": "hr_policy",
+    "expected_type": "factual",
+    "query": "Who approves fully remote work?"
+  },
+  {
+    "domain": "smart_home_support",
+    "expected_type": "factual",
+    "query": "What does error code E3 mean?"
+  },
+  {
+    "domain": "smart_home_support",
+    "expected_type": "factual",
+    "query": "What is the price of the AirPure P5?"
+  },
+  {
+    "domain": "smart_home_support",
+    "expected_type": "factual",
+    "query": "How often should I replace the HEPA filter?"
+  },
+  {
+    "domain": "smart_home_support",
+    "expected_type": "factual",
+    "query": "Does the T2 work with 5 GHz Wi-Fi?"
+  },
+  {
+    "domain": "smart_home_support",
+    "expected_type": "factual",
+    "query": "What is the toll free support number?"
+  },
+  {
+    "domain": "smart_home_support",
+    "expected_type": "factual",
+    "query": "Warranty period of the T2 Pro"
+  },
+  {
+    "domain": "hr_policy",
+    "expected_type": "procedural",
+    "query": "How do I apply for earned leave?"
+  },
+  {
+    "domain": "hr_policy",
+    "expected_type": "procedural",
+    "query": "What should I do if my laptop is stolen?"
+  },
+  {
+    "domain": "hr_policy",
+    "expected_type": "procedural",
+    "query": "How can I request to work fully remote?"
+  },
+  {
+    "domain": "hr_policy",
+    "expected_type": "procedural",
+    "query": "How do I raise a grievance?"
+  },
+  {
+    "domain": "hr_policy",
+    "expected_type": "procedural",
+    "query": "Steps to submit a reimbursement claim"
+  },
+  {
+    "domain": "smart_home_support",
+    "expected_type": "procedural",
+    "query": "How do I factory reset the thermostat?"
+  },
+  {
+    "domain": "smart_home_support",
+    "expected_type": "procedural",
+    "query": "How do I connect the T2 to Wi-Fi?"
+  },
+  {
+    "domain": "smart_home_support",
+    "expected_type": "procedural",
+    "query": "How to install the smart thermostat"
+  },
+  {
+    "domain": "smart_home_support",
+    "expected_type": "procedural",
+    "query": "What is the process to claim warranty for a faulty device?"
+  },
+  {
+    "domain": "smart_home_support",
+    "expected_type": "procedural",
+    "query": "How should I reset the filter indicator after replacing the filter?"
+  },
+  {
+    "domain": "hr_policy",
+    "expected_type": "comparative",
+    "query": "What is the difference between casual leave and sick leave?"
+  },
+  {
+    "domain": "hr_policy",
+    "expected_type": "comparative",
+    "query": "Compare the notice period during probation and after confirmation"
+  },
+  {
+    "domain": "hr_policy",
+    "expected_type": "comparative",
+    "query": "Which gives more days, earned leave or sick leave?"
+  },
+  {
+    "domain": "hr_policy",
+    "expected_type": "comparative",
+    "query": "Metro vs non-metro per diem"
+  },
+  {
+    "domain": "hr_policy",
+    "expected_type": "comparative",
+    "query": "Is maternity leave longer than adoption leave?"
+  },
+  {
+    "domain": "smart_home_support",
+    "expected_type": "comparative",
+    "query": "What is the difference between the T2 and the T2 Pro?"
+  },
+  {
+    "domain": "smart_home_support",
+    "expected_type": "comparative",
+    "query": "Which purifier covers a bigger room, AirPure P3 or AirPure P5?"
+  },
+  {
+    "domain": "smart_home_support",
+    "expected_type": "comparative",
+    "query": "Compare the warranty of the T1 Lite and the T2 Pro"
+  },
+  {
+    "domain": "smart_home_support",
+    "expected_type": "comparative",
+    "query": "Is the T2 Pro better than the T1 Lite for Siri users?"
+  },
+  {
+    "domain": "smart_home_support",
+    "expected_type": "comparative",
+    "query": "AirPure P3 versus AirPure P5 noise level"
+  },
+  {
+    "domain": "hr_policy",
+    "expected_type": "ambiguous",
+    "query": "leave"
+  },
+  {
+    "domain": "hr_policy",
+    "expected_type": "ambiguous",
+    "query": "What about it?"
+  },
+  {
+    "domain": "hr_policy",
+    "expected_type": "ambiguous",
+    "query": "policy"
+  },
+  {
+    "domain": "hr_policy",
+    "expected_type": "ambiguous",
+    "query": "tell me more"
+  },
+  {
+    "domain": "smart_home_support",
+    "expected_type": "ambiguous",
+    "query": "warranty"
+  },
+  {
+    "domain": "smart_home_support",
+    "expected_type": "ambiguous",
+    "query": "and that one?"
+  },
+  {
+    "domain": "smart_home_support",
+    "expected_type": "ambiguous",
+    "query": "help"
+  },
+  {
+    "domain": "smart_home_support",
+    "expected_type": "ambiguous",
+    "query": "How about this?"
+  }
+]
