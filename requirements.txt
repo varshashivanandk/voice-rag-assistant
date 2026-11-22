@@ -4,3 +4,5 @@ pypdf
 python-docx
 pytest
 reportlab
+groq
+python-dotenv
