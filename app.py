@@ -1,9 +1,10 @@
 import os
 import uuid
 
-from flask import Flask, jsonify, render_template, request
+from flask import Flask, jsonify, request
 
 import database
+from agents.orchestrator import handle_query
 import vector_store
 from config import ALLOWED_EXTENSIONS, UPLOAD_DIR
 from ingestion import file_to_chunks
@@ -14,7 +15,7 @@ app.config["MAX_CONTENT_LENGTH"] = 25 * 1024 * 1024   # max upload size: 25 MB
 
 @app.route("/")
 def home():
-    return render_template("index.html")
+    return jsonify({"message": "API is running. Open the React frontend at http://localhost:5173"})
 
 
 # Knowledge base ingestion
@@ -66,6 +67,20 @@ def search():
     data = request.get_json()
     hits = vector_store.search(data["question"], int(data.get("top_k", 5)), data.get("domain") or None)
     return jsonify(hits)
+
+
+# Milestone 2: multi-agent query resolution
+@app.route("/api/ask", methods=["POST"])
+def ask():
+    """Query Understanding -> Retrieval -> Response Generation -> final answer with sources."""
+    data = request.get_json() or {}
+    result = handle_query(
+        data.get("question", ""),
+        domain=data.get("domain") or None,
+        top_k=int(data.get("top_k", 5)),
+        min_score=float(data.get("min_score", 0.45)),
+    )
+    return jsonify(result)
 
 
 if __name__ == "__main__":
