@@ -49,6 +49,8 @@ def search(question, top_k=TOP_K, domain=None):
         score = 1 - results["distances"][0][i]   # Chroma gives distance (similarity = 1 - distance)
         hits.append({
             "rank": i + 1,
+            "chunk_id": results["ids"][0][i],
+            "chunk_index": meta["chunk_index"],
             "text": results["documents"][0][i],
             "filename": meta["filename"],
             "domain": meta["domain"],
